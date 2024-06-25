@@ -12,7 +12,7 @@ import os
 
 @st.cache_data
 def load_model():
-    model_path = 'D:/Bootcamp/Dibimbing/Final Project/try deploy/model/xgb_clf.pkl'  # Sesuaikan dengan lokasi file model Anda
+    model_path = 'diabetes_status_prediction/model/xgb_clf.pkl'  # Sesuaikan dengan lokasi file model Anda
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     return model
