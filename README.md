@@ -5,4 +5,4 @@ The best model has performance with an accuracy of 74% with 5 important features
 
 The deployed web app can make predictions after the user answers the available questions according to their own conditions
 
-Please try the web app here :
+Please try the web app here : https://predict-diabetes-status-by-nurul.streamlit.app/
