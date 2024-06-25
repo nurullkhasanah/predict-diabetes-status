@@ -13,7 +13,7 @@ import seaborn as sns
 st.title('Exploratory Data Analysis')
 
 
-df = pd.read_csv('dataset\diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
+df = pd.read_csv('diabetes_status_prediction/dataset/diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
 
 @st.cache_data
 def show_data():
